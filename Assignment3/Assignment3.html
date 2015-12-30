@@ -1,0 +1,160 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Assignment 3</title>
+	<style type="text/css">
+	form
+	{
+		width:60%;
+		margin: auto;
+	}
+	#myDiv
+	{
+		margin: auto;
+		background-image: url("img2.jpg") ;
+		padding: 20px;
+		color: white;
+	}
+	.outer
+	{
+		width: 100%;
+		float: left;
+	}
+	.inner
+	{
+		font-weight: bold;
+		margin:5px;
+		margin-left: 5px;
+		padding: 10px;
+		float: left;
+		width: 95%;
+		background-color: rgba(116, 165, 185, .5);
+		border:2px solid rgba(116, 165, 185, .5);
+		border-radius: 20px;
+
+	}
+	.col1
+	{
+		width: 25%;
+		float: left;
+	}
+	.col2
+	{
+		width: 60%;
+		float: right;
+	}
+	img
+	{
+		width:30px;
+		height: 20px;
+	}
+	input[type="text"]
+	{
+		width:350px;
+		height: 30px;
+	}
+
+	input[type="submit"]
+	{
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		border-radius: 12px;
+		height: 35px;
+		color: white;
+		background-color: black;
+	}
+
+	</style>
+
+</head>
+<body>
+	<form method="post">
+		<div id="myDiv">
+			<h3>Step 1: Your Details</h3>
+			
+			<div class="outer">
+				<div class="inner">
+					<div class="col1">Name</div>
+					<div class="col2"><input type="text" placeholder="First and Last name here"></div>
+			    </div>
+				
+			<div class="inner">
+				<div class="col1">Email</div>
+				<div class="col2"><input type="text" placeholder="example@domain.com"></div>
+			</div>
+				
+			<div class="inner">
+				<div class="col1">Phone</div>
+				<div class="col2"><input type="text" placeholder="e.g. +4475000000000"></div>
+			</div>
+
+			</div>
+			<h3>Step 2: Delivery Address</h3>
+			<div class="outer">
+				<div class="inner">
+					<div class="col1">Address</div>
+					<div class="col2"><textarea rows="3" cols="41"></textarea></div>
+				</div>
+					
+				<div class="inner">
+					<div class="col1">Post Code</div>
+					<div class="col2"><input type="text" placeholder=""></div>
+				</div>
+					
+				<div class="inner">
+					<div class="col1">Country</div>
+					<div class="col2"><input type="text" placeholder=""></div>
+				</div>
+
+			</div>
+			<h3>Step 3: Your Card Deatils</h3>
+			<div class="outer">
+				<div class="inner">					
+					<div class="col1">Card type</div>
+					<div class="col2"><input type="radio" name="r1" Value="Visa"><img src="vs1.png">Visa 
+							&nbsp
+							&nbsp
+							&nbsp
+							&nbsp
+							<input type="radio" name="r1" Value="AmEx"><img src="ae1.png">AmEx
+							&nbsp
+							&nbsp
+							&nbsp
+							&nbsp
+							<input type="radio" name="r1" Value="Master"><img src="ms1.jpg">MasterCard
+					</div>
+				</div>
+					
+				<div class="inner">
+
+					<div class="col1">Card number</div>
+					<div class="col2"><input type="text" placeholder=""></div>
+				</div>
+					
+				<div class="inner">				
+					<div class="col1">Security Code</div>
+					<div class="col2"><input type="text" placeholder=""></div>
+				</div>
+					
+				<div class="inner">
+					<div class="col1">Name on Card</div>
+					<div class="col2"><input type="text" placeholder="exact name as on card"></div>
+				</div>
+
+
+			</div>
+			<br>
+			<br>
+			<div id="bt1">
+				<input type="submit" Value="Buy it!">
+			</div>
+			
+	</div>
+
+	</form>
+
+
+</body>
+
+</html>
